@@ -1,5 +1,5 @@
 ---
-import landing from "/public/images/landing.jpeg";
+import landing from "/public/images/njabs-zebra.jpeg";
 
 import { Image } from "@astrojs/image/components";
 ---
@@ -8,9 +8,9 @@ import { Image } from "@astrojs/image/components";
   <section>
     <div class="grid grid-cols-1 gap-3 p-4">
       <div
-        class="aspect-[280/300] bg-zinc-100 rounded-xl overflow-hidden filter grayscale"
+        class="aspect-[280/300] bg-zinc-100 rounded-xl overflow-hidden"
       >
-        <Image class="object-cover h-full" src={landing} alt="#" />
+        <Image class="object-cover h-full w-full" src={landing} alt="#" />
       </div>
     </div>
   </section>
